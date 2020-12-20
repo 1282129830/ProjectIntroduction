@@ -1,0 +1,18 @@
+{
+	"plugins": [
+	
+		"-lunr", 
+        "-search", 
+        "search-pro",
+		"chapter-fold",
+		"code",
+		"splitter",
+		"tbfed-pagefooter"
+	
+	],
+	
+	"plugins": ["search-pro"],
+	
+	"plugins": ["chapter-fold"]
+
+}

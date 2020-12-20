@@ -1,0 +1,5 @@
+#### SpringBoot自动配置原理
+
+1、@EnableAutoConfiguration这个注解会"猜"你将如何配置spring，前提是你已经添加了jar依赖项，如果spring-boot-starter-web已经添加Tomcat和SpringMVC，这个注释就会自动假设您在开发一个web应用程序并添加相应的spring配置，会自动去maven中读取每个starter中的spring.factories文件，该文件里配置了所有需要被创建spring容器中bean
+
+2、在main方法中加上@SpringBootApplication和@EnableAutoConfiguration
